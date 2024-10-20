@@ -1,0 +1,31 @@
+Ici on scan le serveur avec dirb
+https://www.kali.org/tools/dirb/
+
+avec un dictionaire de mot commun,
+
+Ici on trouve
+
+---- Scanning URL: http://192.168.1.27/ ----
+==> DIRECTORY: http://192.168.1.27/admin/
+==> DIRECTORY: http://192.168.1.27/audio/
+==> DIRECTORY: http://192.168.1.27/css/
+==> DIRECTORY: http://192.168.1.27/errors/
++ http://192.168.1.27/favicon.ico (CODE:200|SIZE:1406)
+==> DIRECTORY: http://192.168.1.27/fonts/
+==> DIRECTORY: http://192.168.1.27/images/
+==> DIRECTORY: http://192.168.1.27/includes/
++ http://192.168.1.27/index.php (CODE:200|SIZE:6892)
+==> DIRECTORY: http://192.168.1.27/js/
++ http://192.168.1.27/robots.txt (CODE:200|SIZE:53)
+==> DIRECTORY: http://192.168.1.27/whatever/
+
+
+On trouve
+==> DIRECTORY: http://192.168.1.27/whatever/
+
+Qui nous permet de telecharger un .htpasswd qui contient
+
+root:437394baff5aa33daa618be47b75cb49
+
+
+
